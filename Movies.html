@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/2edd0b3374.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nanum+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <script src="index.js"></script>
+    <nav>
+      <a href="index.html"><img id="logo" src="365ep (1).jpg" /></a>
+      <ul>
+        <li><a href="Movies.html">Movies</a></li>
+        <li><a href="#">TV Series</a></li>
+        <li><a href="#">Audio</a></li>
+      </ul>
+    </nav>
+    <div class="slider">
+      <div class="slideshow-container">
+        <div class="mySlides1">
+          <img src="Movie group/abc1.jpg" style="width: 100%" />
+        </div>
+        <div class="mySlides1">
+          <img src="Movie group/abc2.jpg" style="width: 100%" />
+        </div>
+        <div class="mySlides1">
+          <img src="Movie group/abc3.jpg" style="width: 100%" />
+        </div>
+        <div class="mySlides1">
+          <img src="Movie group/abc4.jpg" style="width: 100%" />
+        </div>
+        <div class="mySlides1">
+          <img src="Movie group/abc5.jpg" style="width: 100%" />
+        </div>
+        <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+      </div>
+    </div>
+
+    <main>
+      <div class="dropdown">
+        <button id="btn" class="dropbtn">
+          Genre<i id="down_arrow" class="fas fa-sort-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a class='drop' id="a" href="#">All</a>
+          <a class='drop' id="b" href="#">Action</a>
+          <a class='drop' id="c" href="#">Drama</a>
+          <a class='drop' id="d" href="#">Sci-Fi</a>
+        </div>
+      </div>
+      <div class="search">
+        <div id="search_border">
+          <input placeholder="Search your favourite movie title" /><i
+            id="search_icon"
+            class="fas fa-search"
+          ></i>
+        </div>
+      </div>
+      <div class="container">
+        <div id='pics' class="pics">
+          <figure>
+            <img class="movies" src="Movie group/movies pics/nano1.jpg" />
+            <figcaption>
+              <h5>Haider</h5>
+              <p>Indian crime tragedy film.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="movies" src="Movie group/movies pics/nano2.jpg" />
+            <figcaption>
+              <h5>Dream 2</h5>
+              <p>Thriller,Mystery & Comedy.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="movies" src="Movie group/movies pics/nano3.jpg" />
+            <figcaption>
+              <h5>Batman</h5>
+              <p>A Marvel Comics superhero team.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="movies" src="Movie group/movies pics/nano4.jpg" />
+            <figcaption>
+              <h5>Monster Manav</h5>
+              <p>Japanese manga series written by Tsugumi.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="movies" src="Movie group/movies pics/nano5.jpg" />
+            <figcaption>
+              <h5>Kill Bill</h5>
+              <p>2003 American martial arts film.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="movies" src="Movie group/movies pics/nano6.jpg" />
+            <figcaption>
+              <h5>Rowdy</h5>
+              <p>Indian action drama film.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="movies" src="Movie group/movies pics/nano7.jpg" />
+            <figcaption>
+              <h5>Agnipaath</h5>
+              <p>Indian crime tragedy film.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="movies" src="Movie group/movies pics/nano8.jpg" />
+            <figcaption>
+              <h5>Ankhein</h5>
+              <p>Thriller,Mystery & Comedy.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="movies" src="Movie group/movies pics/nano9.jpg" />
+            <figcaption>
+              <h5>Guide</h5>
+              <p>A Marvel Comics superhero team.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="movies" src="Movie group/movies pics/nano10.jpg" />
+            <figcaption>
+              <h5>Deewar</h5>
+              <p>2016 - Fantasy/Science Fiction.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="movies" src="Movie group/movies pics/nano11.jpg" />
+            <figcaption>
+              <h5>Sholay</h5>
+              <p>A Marvel Comics superhero team.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="movies" src="Movie group/movies pics/nano12.jpg" />
+            <figcaption>
+              <h5>K3G</h5>
+              <p>A Marvel Comics superhero team.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="movies" src="Movie group/movies pics/nano13.jpg" />
+            <figcaption>
+              <h5>Shaurya</h5>
+              <p>A Marvel Comics superhero team.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="movies" src="Movie group/movies pics/nano14.jpg" />
+            <figcaption>
+              <h5>Cheeni Kam</h5>
+              <p>A Marvel Comics superhero team.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="movies" src="Movie group/movies pics/nano15.jpg" />
+            <figcaption>
+              <h5>Ishq Vishq</h5>
+              <p>A Marvel Comics superhero team.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="movies" src="Movie group/movies pics/nano16.jpg" />
+            <figcaption>
+              <h5>Padmaavat</h5>
+              <p>A Marvel Comics superhero team.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="movies" src="Movie group/movies pics/nano17.jpg" />
+            <figcaption>
+              <h5>Kai Po Che</h5>
+              <p>A Marvel Comics superhero team.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="movies" src="Movie group/movies pics/nano18.jpg" />
+            <figcaption>
+              <h5>Raabta</h5>
+              <p>A Marvel Comics superhero team.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="movies" src="Movie group/movies pics/nano19.jpg" />
+            <figcaption>
+              <h5>Interstellar</h5>
+              <p>A Marvel Comics superhero team.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="movies" src="Movie group/movies pics/nano20.jpg" />
+            <figcaption>
+              <h5>Star Wars</h5>
+              <p>A Marvel Comics superhero team.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="movies" src="Movie group/movies pics/nano21.jpg" />
+            <figcaption>
+              <h5>Thor</h5>
+              <p>A Marvel Comics superhero team.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="movies" src="Movie group/movies pics/nano22.jpg" />
+            <figcaption>
+              <h5>Captain America</h5>
+              <p>A Marvel Comics superhero team.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="movies" src="Movie group/movies pics/nano23.jpg" />
+            <figcaption>
+              <h5>X-Men</h5>
+              <p>A Marvel Comics superhero team.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="movies" src="Movie group/movies pics/nano24.jpg" />
+            <figcaption>
+              <h5>Black Window</h5>
+              <p>A Marvel Comics superhero team.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="movies" src="Movie group/movies pics/nano25.jpg" />
+            <figcaption>
+              <h5>Iron-Man</h5>
+              <p>A Marvel Comics superhero team.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="movies" src="Movie group/movies pics/nano26.jpg" />
+            <figcaption>
+              <h5>Hulk</h5>
+              <p>A Marvel Comics superhero team.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="movies" src="Movie group/movies pics/nano27.jpg" />
+            <figcaption>
+              <h5>Captain Marvel</h5>
+              <p>A Marvel Comics superhero team.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="movies" src="Movie group/movies pics/nano28.jpg" />
+            <figcaption>
+              <h5>Wonder Woman</h5>
+              <p>A Marvel Comics superhero team.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="movies" src="Movie group/movies pics/nano29.jpg" />
+            <figcaption>
+              <h5>Batwoman</h5>
+              <p>A Marvel Comics superhero team.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="movies" src="Movie group/movies pics/nano30.jpg" />
+            <figcaption>
+              <h5>Batman</h5>
+              <p>A Marvel Comics superhero team.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="movies" src="Movie group/movies pics/nano31.jpg" />
+            <figcaption>
+              <h5>Superman</h5>
+              <p>A Marvel Comics superhero team.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="movies" src="Movie group/movies pics/nano32.jpg" />
+            <figcaption>
+              <h5>Superwoman</h5>
+              <p>A Marvel Comics superhero team.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="movies" src="Movie group/movies pics/nano33.jpg" />
+            <figcaption>
+              <h5>Doctor Strange</h5>
+              <p>A Marvel Comics superhero team.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="movies" src="Movie group/movies pics/nano34.jpg" />
+            <figcaption>
+              <h5>Mars</h5>
+              <p>A Marvel Comics superhero team.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="movies" src="Movie group/movies pics/nano35.jpg" />
+            <figcaption>
+              <h5>Gravity</h5>
+              <p>A Marvel Comics superhero team.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="movies" src="Movie group/movies pics/nano36.jpg" />
+            <figcaption>
+              <h5>Martian</h5>
+              <p>A Marvel Comics superhero team.</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <a href="#"><img id="logo" src="365ep (1).jpg" /></a>
+      <h4 id="footer-title">
+        Powered by 365 Entertainment Portal 2019.All Rights Reserved.
+      </h4>
+    </footer>
+    <script>
+      document.getElementById('a').addEventListener("click", function () {
+      var ans=document.getElementById('a').innerText;
+      document.getElementById('btn').innerText=ans;
+      var hide=document.getElementById('pics');
+      hide.style.display='block';
+      });
+      document.getElementById('b').addEventListener("click", function () {
+      var ans=document.getElementById('b').innerHTML;
+      document.getElementById('btn').innerHTML=ans;
+      var visible=document.getElementById('pics');
+      visible.style.display='none';
+      });
+      document.getElementById('c').addEventListener("click", function () {
+      var ans=document.getElementById('c').innerHTML;
+      document.getElementById('btn').innerHTML=ans;
+      });
+      document.getElementById('d').addEventListener("click", function () {
+      var ans=document.getElementById('d').innerHTML;
+      document.getElementById('btn').innerHTML=ans;
+      });
+    </script>
+  </body>
+</html>
